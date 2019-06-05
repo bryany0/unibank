@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap");
+body {
+  background: url(../src/img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0; }
+
+footer .footer1 .subFooter1, footer .footer1 .subFooter2, footer .footer1 .subFooter3 {
+  float: left;
+  padding: 16px 86px; }
+  footer .footer1 .subFooter1 ul, footer .footer1 .subFooter2 ul, footer .footer1 .subFooter3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    footer .footer1 .subFooter1 ul li, footer .footer1 .subFooter2 ul li, footer .footer1 .subFooter3 ul li {
+      color: #fff;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      font-family: "Roboto", sans-serif;
+      text-decoration: none; }
+  footer .footer1 .subFooter1 p, footer .footer1 .subFooter2 p, footer .footer1 .subFooter3 p {
+    color: #fff;
+    font-weight: bold; }
+
+body {
+  margin: 0;
+  padding: 0; }
+  body nav {
+    font-family: "Product Sans", Arial, sans-serif;
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2); }
+    body nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      body nav ul .itemsLeft {
+        justify-content: center;
+        align-items: center;
+        float: left;
+        display: block; }
+        body nav ul .itemsLeft ul {
+          list-style: none;
+          align-items: center;
+          display: flex; }
+          body nav ul .itemsLeft ul li {
+            list-style: none; }
+          body nav ul .itemsLeft ul .txtLogo {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            list-style: none;
+            font-weight: 550;
+            font-size: 22px; }
+            body nav ul .itemsLeft ul .txtLogo p {
+              color: #427E59;
+              padding: 0;
+              margin: 0; }
+            body nav ul .itemsLeft ul .txtLogo p:hover {
+              color: #2e5b40;
+              transition: .3s; }
+          body nav ul .itemsLeft ul .imgLogo {
+            padding-left: 16px;
+            padding-right: 8px; }
+      body nav ul .itemsRight ul {
+        list-style: none;
+        padding-right: 8px; }
+        body nav ul .itemsRight ul li {
+          list-style: none;
+          float: right;
+          list-style: none;
+          padding-left: 8px;
+          padding-right: 8px; }
+          body nav ul .itemsRight ul li .iniciarS button {
+            margin-top: 8px;
+            margin-bottom: 8px;
+            border: 0;
+            background-color: #fff;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 22px;
+            color: #0F723B;
+            font-weight: 600; }
+          body nav ul .itemsRight ul li .iniciarS button:hover {
+            background-color: #c5ff8c;
+            color: #0F723B;
+            transition: .6s; }
+          body nav ul .itemsRight ul li .crearC button {
+            margin-top: 8px;
+            margin-bottom: 8px;
+            border: 0;
+            background-color: #fff;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 22px;
+            color: #5F6368; }
+          body nav ul .itemsRight ul li .crearC button:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            color: #5f6368;
+            transition: .2s; }
+  body .row {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    body .row .col1 {
+      padding-left: 16px;
+      padding-right: 32px;
+      padding-top: 16px;
+      padding-bottom: 16px; }
+      body .row .col1 .headCol1 {
+        justify-content: center;
+        align-items: center;
+        display: flex; }
+        body .row .col1 .headCol1 ul {
+          list-style: none;
+          padding: 0;
+          margin: 0; }
+          body .row .col1 .headCol1 ul li {
+            justify-content: center;
+            align-items: center;
+            display: flex; }
+            body .row .col1 .headCol1 ul li h2 {
+              list-style: none;
+              font-weight: 550;
+              font-size: 36px;
+              font-family: "Roboto", sans-serif;
+              color: #0F723B; }
+            body .row .col1 .headCol1 ul li p {
+              font-family: Arial; }
+      body .row .col1 form ul {
+        list-style: none;
+        padding: 0;
+        margin: 0; }
+        body .row .col1 form ul li {
+          font-family: "Product Sans", Arial, sans-serif; }
+          body .row .col1 form ul li .checkCol1 {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            /* On mouse-over, add a grey background color */
+            /* When the checkbox is checked, add a blue background */
+            /* Create the checkmark/indicator (hidden when not checked) */
+            /* Show the checkmark when checked */
+            /* Style the checkmark/indicator */ }
+            body .row .col1 form ul li .checkCol1 .container {
+              display: block;
+              position: relative;
+              padding-left: 35px;
+              margin-bottom: 12px;
+              cursor: pointer;
+              font-size: 14px;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none; }
+            body .row .col1 form ul li .checkCol1 .container input {
+              position: absolute;
+              opacity: 0;
+              cursor: pointer;
+              height: 0;
+              width: 0; }
+            body .row .col1 form ul li .checkCol1 .checkmark {
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 25px;
+              width: 25px;
+              background-color: #eee;
+              border-radius: 22px; }
+            body .row .col1 form ul li .checkCol1 .container:hover input ~ .checkmark {
+              background-color: #ccc; }
+            body .row .col1 form ul li .checkCol1 .container input:checked ~ .checkmark {
+              background-color: #9DD962; }
+            body .row .col1 form ul li .checkCol1 .checkmark:after {
+              content: "";
+              position: absolute;
+              display: none; }
+            body .row .col1 form ul li .checkCol1 .container input:checked ~ .checkmark:after {
+              display: block; }
+            body .row .col1 form ul li .checkCol1 .container .checkmark:after {
+              left: 9px;
+              top: 5px;
+              width: 5px;
+              height: 10px;
+              border: solid white;
+              border-width: 0 3px 3px 0;
+              -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg); }
+        body .row .col1 form ul input[type=text] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          border: none;
+          display: inline-block;
+          border-radius: 20px;
+          box-sizing: border-box;
+          font-size: 16px;
+          background-color: #eaeaea; }
+        body .row .col1 form ul input:active {
+          border: 0px;
+          outline: 0px; }
+        body .row .col1 form ul input::placeholder {
+          color: gray; }
+        body .row .col1 form ul button {
+          border: none;
+          width: 100%;
+          padding: 12px 20px;
+          border-radius: 20px;
+          background-color: #0F723B;
+          color: #fff;
+          font-size: 16px; }
+        body .row .col1 form ul button:active {
+          background-color: #2e5b40; }
+    body .row .col2 {
+      padding-left: 32px;
+      padding-right: 16px;
+      padding-top: 16px;
+      padding-bottom: 16px; }
+
+footer {
+  margin-top: 25px;
+  background-color: #2e5b40;
+  font-family: "Product Sans", Arial, sans-serif; }
+  footer .footer1 {
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+    footer .footer1 a {
+      color: #fff;
+      text-decoration: none; }
+  footer .footer2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #203f2d;
+    color: #fff; }
+  footer .footer1:after {
+    display: table;
+    clear: both;
+    content: ""; }
+
+footer:hover {
+  text-decoration: none; }
+
+/*# sourceMappingURL=login.css.map */

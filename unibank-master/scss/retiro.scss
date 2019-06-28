@@ -2,10 +2,13 @@
 
 $colorTextNav: #0F723B;
 $subMaincolor: #2e5b40;
-$mainColor: #008504;
+$mainColor: #427E59;
 $mainColorRGB: rgb(15, 114, 59);
 $secondColor: #9DD962;
 $secondColorRGB: rgb(157, 217, 98);
+
+//textForm
+$colorTextForm1: #b4b6ba;
 //footer
 $footerColor2:#203f2d;
 $font:'Product Sans',Arial,sans-serif;
@@ -42,6 +45,39 @@ body{
     font-weight: bold;
   }
 }
+.identificacion{
+  padding: 8px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+%liStyle{
+  select{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+  }
+  p{
+    color: $colorTextForm1;
+  }
+  #subP{
+    color: #000;
+  }
+  input[type=number]{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 93%;
+  }
+  input[type=text]{
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 93%;
+  }
+
 
 body{
   margin: 0;
@@ -69,7 +105,7 @@ body{
             list-style: none;
           }
           .txtLogo{
-            text-decoration: none;
+            
             padding-top: 20px;
             padding-bottom: 20px;
             list-style: none;
@@ -77,16 +113,17 @@ body{
             font-size: 22px;
 
             p{
+              
               color: #427E59;
               padding: 0;
               margin: 0;
             }
+            a{
+              text-decoration: none;
+            }
             p:hover{
               color: #2e5b40;
               transition: .3s;
-            }
-            a{
-              text-decoration: none;
             }
           }
           .imgLogo{
@@ -114,7 +151,7 @@ body{
                 padding: 10px;
                 font-size: 18px;
                 border-radius: 22px;
-                color:$mainColor;
+                color: $mainColor;
                 font-weight: 600;
               }
               button:hover{
@@ -146,184 +183,106 @@ body{
     }
   }
 
-  //body
-  .row{
-    //background-color: yellow;
+  .cardDep{
+    //body
+    font-family: $font;
     display: flex;
     align-items: center;
     justify-content: center;
-    //float: right;
-    .col1{
-      //background-color: red;
-      //padding: 16px;
-      padding-left: 16px;
-      padding-right: 32px;
-      padding-top: 16px;
-      padding-bottom: 16px;
-      //display:block;
-      //clear: left;
-      .headCol1{
-        justify-content: center;
+    .row{
+      justify-content: center;
+      background-color: #fff;
+      display: flex; 
+      border-radius: 16px;
+      width: 60%;
+      height: auto;
+      box-shadow: 2px 2px 16px 8px rgba(0,0,0,0.1);
+      .col1{
+        //background-color: red;
+        width: 50%;
+        padding-left: 16px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
         align-items: center;
-        display:flex;
-        
-        ul{
-          list-style: none;
-          padding: 0;
-          margin: 0;
-          
-          li{
+        justify-content: center;
+        display: flex;
+        .formMain{
+          //background-color: #9DD962;
+          h2{
+            color: #008504;
+            //text-align: center;
+            padding-left: 36px;
+            font-size: 28px;
             
-            justify-content: center;
-            align-items: center;
-            display:flex;
-            margin-top: -20px;
-            h2{
-              //padding-top: 20px;
-              //padding-bottom: 20px;
-              list-style: none;
-              font-weight: 550;
-              font-size: 36px;
-              font-family: $font2;
-              color: $mainColor;
-            }
-            p{
-              font-family: Arial;
-              //font-size: 12px;
+          }
+          ul{
+            list-style: none;
+            li{
+              @extend %liStyle;
             }
           }
         }
       }
-      input{
-        width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: none;
-    display: inline-block;
-    border-radius: 20px;
-    box-sizing: border-box;
-    font-size: 16px;
-    background-color: #ffff;
-      }
-      form{
-        ul{
-          list-style: none;
-          padding: 0;
-          margin: 0;
-          //align-items: center;
-          //justify-content: center;
-          li{
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            font-family: $font;
-            .nombres{
-              //background-color: red;
-              width: 80%;
-              display: flex;
-              float: left;
-              .subNombres1{
-                margin-right: 8px;
+      .col2{
+        //background-color: yellow;
+        width: 50%;
+        padding-left: 16px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 30px;
+        .formMain2{
+          //background-color: #008504;
+          ul{
+            list-style: none;
+            li{
+              @extend %liStyle;
+              textarea{
+                border-radius: 8px;
+                border: 1px solid #ccc;
+                resize: none;
+                font-family: $font2;
+                font-size: 16px;
               }
-              .subNombres2{
-                margin-left: 8px;
+              button{
+                padding: 8px;
+                border-radius: 8px;      
+                border: 1px solid #ccc;
+                width: 40%;
+                margin: 8px;
               }
-            }
-          
-              /* On mouse-over, add a grey background color */
-              .container:hover input ~ .checkmark {
-                background-color: #ccc;
+              #btn1{
+                background-color: $mainColor;
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
               }
-              /* When the checkbox is checked, add a blue background */
-              .container input:checked ~ .checkmark {
+              #btn1:hover{
                 background-color: $secondColor;
+                color: #fff;
               }
-              /* Create the checkmark/indicator (hidden when not checked) */
-              .checkmark:after {
-                content: "";
-                position: absolute;
-                display: none;
+              #btn2{
+                background-color: #fff;
+                font-size: 18px;
+                font-weight: bold;
               }
-              /* Show the checkmark when checked */
-              .container input:checked ~ .checkmark:after {
-                display: block;
+              #btn2:hover{
+                background-color: $secondColor;
+                color: #fff;
+                
               }
-              /* Style the checkmark/indicator */
-              .container .checkmark:after {
-                left: 9px;
-                top: 5px;
-                width: 5px;
-                height: 10px;
-                border: solid white;
-                border-width: 0 3px 3px 0;
-                -webkit-transform: rotate(45deg);
-                -ms-transform: rotate(45deg);
-                transform: rotate(45deg);
-              }
-              }
-          }
-
-          input[type=text]{
-            width: 80%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            border: none;
-            display: inline-block;
-            border-radius: 20px;
-            box-sizing: border-box;
-            font-size: 16px;
-            background-color: #fff; 
-          }
-
-          input:active{
-            border:0px;
-            outline:0px;
-          }
-          input::placeholder{
-            //color: #d3d3d3;
-            color: gray;
-          }
-          .btnRegistro{
-            justify-content: center;
-            align-items: center;
-            display: flex;
-          }
-          p{
-            font-size: 15px;
-            a{
-              color: #008504;
             }
-          }
-          button{
-            border: none;
-            width: 200px;
-            padding: 12px 20px;
-            border-radius: 20px;
-            background-color: $mainColor;
-            color: #fff;
-            font-size: 16px;
-          }
-          button:active{
-            //color: red;
-            background-color: $subMaincolor;
-          }
-          button:hover{
-            background-color: #ffff;
-            color:$mainColor;
-
           }
         }
       }
-    }
-    .col2{
-      //padding: 16px
-      padding-left: 32px;
-      padding-right: 16px;
-      padding-top: 16px;
-      padding-bottom: 16px;
-      //background-color: green;
     }
   }
+  
+}
 
 
 footer{

@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300&display=swap");
+body {
+  background: url(../src/img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0; }
+
+footer .footer1 .subFooter1, footer .footer1 .subFooter2, footer .footer1 .subFooter3 {
+  float: left;
+  padding: 16px 86px; }
+  footer .footer1 .subFooter1 ul, footer .footer1 .subFooter2 ul, footer .footer1 .subFooter3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    footer .footer1 .subFooter1 ul li, footer .footer1 .subFooter2 ul li, footer .footer1 .subFooter3 ul li {
+      color: #fff;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      font-family: "Roboto", sans-serif;
+      text-decoration: none; }
+  footer .footer1 .subFooter1 p, footer .footer1 .subFooter2 p, footer .footer1 .subFooter3 p {
+    color: #fff;
+    font-weight: bold; }
+
+body .cardDep .row .col1 .formMain ul li select, body .cardDep .row .col2 .formMain2 ul li select {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%; }
+body .cardDep .row .col1 .formMain ul li p, body .cardDep .row .col2 .formMain2 ul li p {
+  color: #b4b6ba; }
+body .cardDep .row .col1 .formMain ul li #subP, body .cardDep .row .col2 .formMain2 ul li #subP {
+  color: #000; }
+body .cardDep .row .col1 .formMain ul li input[type=number], body .cardDep .row .col2 .formMain2 ul li input[type=number] {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 93%; }
+body .cardDep .row .col1 .formMain ul li input[type=text], body .cardDep .row .col2 .formMain2 ul li input[type=text] {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 93%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+  body nav {
+    font-family: "Product Sans", Arial, sans-serif;
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2); }
+    body nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      body nav ul .itemsLeft {
+        justify-content: center;
+        align-items: center;
+        float: left;
+        display: block; }
+        body nav ul .itemsLeft ul {
+          list-style: none;
+          align-items: center;
+          display: flex; }
+          body nav ul .itemsLeft ul li {
+            list-style: none; }
+          body nav ul .itemsLeft ul .txtLogo {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            list-style: none;
+            font-weight: 550;
+            font-size: 22px; }
+            body nav ul .itemsLeft ul .txtLogo p {
+              color: #427E59;
+              padding: 0;
+              margin: 0; }
+            body nav ul .itemsLeft ul .txtLogo a {
+              text-decoration: none; }
+            body nav ul .itemsLeft ul .txtLogo p:hover {
+              color: #2e5b40;
+              transition: .3s; }
+          body nav ul .itemsLeft ul .imgLogo {
+            padding-left: 16px;
+            padding-right: 8px; }
+      body nav ul .itemsRight ul {
+        list-style: none;
+        padding-right: 8px; }
+        body nav ul .itemsRight ul li {
+          list-style: none;
+          float: right;
+          list-style: none;
+          padding-left: 8px;
+          padding-right: 8px; }
+          body nav ul .itemsRight ul li .iniciarS button {
+            margin-top: 8px;
+            margin-bottom: 8px;
+            border: 0;
+            background-color: #fff;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 22px;
+            color: #427E59;
+            font-weight: 600; }
+          body nav ul .itemsRight ul li .iniciarS button:hover {
+            background-color: #c5ff8c;
+            color: #427E59;
+            transition: .6s; }
+          body nav ul .itemsRight ul li .crearC button {
+            margin-top: 8px;
+            margin-bottom: 8px;
+            border: 0;
+            background-color: #fff;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 22px;
+            color: #5F6368; }
+          body nav ul .itemsRight ul li .crearC button:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            color: #5f6368;
+            transition: .2s; }
+  body .cardDep {
+    font-family: "Product Sans", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    body .cardDep .row {
+      justify-content: center;
+      background-color: #fff;
+      display: flex;
+      border-radius: 16px;
+      width: 60%;
+      height: 700px;
+      box-shadow: 2px 2px 16px 8px rgba(0, 0, 0, 0.1); }
+      body .cardDep .row .col1 {
+        width: 50%;
+        padding-left: 16px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        align-items: center;
+        justify-content: center;
+        display: flex; }
+        body .cardDep .row .col1 .formMain h2 {
+          color: #008504;
+          padding-left: 36px; }
+        body .cardDep .row .col1 .formMain ul {
+          list-style: none; }
+      body .cardDep .row .col2 {
+        width: 50%;
+        padding-left: 16px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        align-items: center;
+        justify-content: center;
+        display: flex; }
+        body .cardDep .row .col2 .formMain2 ul {
+          list-style: none; }
+          body .cardDep .row .col2 .formMain2 ul li textarea {
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            resize: none;
+            font-family: "Roboto", sans-serif;
+            font-size: 16px; }
+          body .cardDep .row .col2 .formMain2 ul li button {
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            width: 40%;
+            margin: 8px; }
+          body .cardDep .row .col2 .formMain2 ul li #btn1 {
+            background-color: #427E59;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold; }
+          body .cardDep .row .col2 .formMain2 ul li #btn1:hover {
+            background-color: #9DD962;
+            color: #fff; }
+          body .cardDep .row .col2 .formMain2 ul li #btn2 {
+            background-color: #fff;
+            font-size: 18px;
+            font-weight: bold; }
+          body .cardDep .row .col2 .formMain2 ul li #btn2:hover {
+            background-color: #9DD962;
+            color: #fff; }
+
+footer {
+  margin-top: 25px;
+  background-color: #2e5b40;
+  font-family: "Product Sans", Arial, sans-serif; }
+  footer .footer1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px; }
+    footer .footer1 a {
+      color: #fff;
+      text-decoration: none; }
+  footer .footer2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #203f2d;
+    color: #fff;
+    font-size: 20px; }
+  footer .footer1:after {
+    display: table;
+    clear: both;
+    content: ""; }
+
+footer:hover {
+  text-decoration: none; }
+
+/*# sourceMappingURL=deposito.css.map */

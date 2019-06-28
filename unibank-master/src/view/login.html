@@ -12,11 +12,12 @@
         <li class="itemsLeft">
           <ul>
             <li class="imgLogo">
-                 <a href="#"><img src="../../src/img/logo.png" alt="logo" height="36">
+                 <a href="../../index.html"><img src="../../src/img/logo.png" alt="logo" height="36">
                  </a>
                 </li>
             <li class="txtLogo">
-              <p>UniBank</p>
+              <a href="../../index.html"><p>UniBank</p></a>
+            
             </li>
           </ul>
         </li>
@@ -25,7 +26,12 @@
           <ul>
             <li>
               <div class="iniciarS">
-                <a href="C:\Users\HP\Desktop\unibank-master\src\view\Registro.html"><button type="button" name="logIn">Registrarse</button></a>
+                <a href="./Registro.html"><button type="button" name="logIn">Registrarse</button></a>
+              </div>
+            </li>
+            <li>
+              <div class="iniciarS">
+                <a href="../../index.html"><button type="button" name="logIn">Inicio</button></a>
               </div>
             </li>
             <li>
@@ -59,7 +65,7 @@
               <input type="text" name="input" placeholder="Usuario">
             </li>
             <li>
-              <input type="text" name="input" placeholder="Contraseña">
+              <input type="password" name="input" placeholder="Contraseña">
             </li>
             <li>
               <div class="checkCol1">
@@ -71,7 +77,10 @@
 
             </li>
             <li>
-              <button type="button" name="button">Iniciar Sesion</button>
+              <button type="button" name="button" onclick="window.location.href='./deposito.html'"/>Iniciar Sesion</button>
+            </li>
+            <li>
+              <p>¿Aún no tienes cuenta? <a href="./Registro.html">Regístrate</a></p>
             </li>
           </ul>
         </form>

@@ -1,0 +1,52 @@
+body{
+    background: url(../src/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+      color: #008504;
+      font-family: 'Product Sans',Arial,sans-serif;
+      text-align: center;
+      font-size: 50px;
+      margin-top: 100px;
+      list-style: none;
+  }
+  p{
+    color: #888888;
+    font-family: 'Product Sans',Arial,sans-serif;
+    font-size: 40px;
+    text-align: center;
+    list-style: none;
+  }
+  ul{
+      list-style: none;
+     
+  }
+  .iniciarS{
+    button{
+      margin-top: 8px;
+      margin-bottom: 8px;
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 22px;
+      color: #888888;
+      font-weight: 600;
+     padding: 16px 86px;
+     font-size: 25px;
+     margin-left: 40%;
+     background: none;
+     
+    
+    }
+    button:hover{
+     
+      color: #008504;
+      
+    }
+    
+}

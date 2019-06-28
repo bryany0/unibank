@@ -59,6 +59,8 @@ body {
               color: #427E59;
               padding: 0;
               margin: 0; }
+            body nav ul .itemsLeft ul .txtLogo a {
+              text-decoration: none; }
             body nav ul .itemsLeft ul .txtLogo p:hover {
               color: #2e5b40;
               transition: .3s; }
@@ -82,11 +84,11 @@ body {
             padding: 10px;
             font-size: 18px;
             border-radius: 22px;
-            color: #0F723B;
+            color: #008504;
             font-weight: 600; }
           body nav ul .itemsRight ul li .iniciarS button:hover {
             background-color: #c5ff8c;
-            color: #0F723B;
+            color: #008504;
             transition: .6s; }
           body nav ul .itemsRight ul li .crearC button {
             margin-top: 8px;
@@ -127,7 +129,7 @@ body {
               font-weight: 550;
               font-size: 36px;
               font-family: "Roboto", sans-serif;
-              color: #0F723B; }
+              color: #008504; }
             body .row .col1 .headCol1 ul li p {
               font-family: Arial; }
       body .row .col1 form ul {
@@ -136,6 +138,8 @@ body {
         margin: 0; }
         body .row .col1 form ul li {
           font-family: "Product Sans", Arial, sans-serif; }
+          body .row .col1 form ul li a {
+            color: green; }
           body .row .col1 form ul li .checkCol1 {
             padding-top: 8px;
             padding-bottom: 8px;
@@ -150,7 +154,7 @@ body {
               padding-left: 35px;
               margin-bottom: 12px;
               cursor: pointer;
-              font-size: 14px;
+              font-size: 16px;
               -webkit-user-select: none;
               -moz-user-select: none;
               -ms-user-select: none;
@@ -167,10 +171,10 @@ body {
               left: 0;
               height: 25px;
               width: 25px;
-              background-color: #eee;
+              background-color: #fff;
               border-radius: 22px; }
             body .row .col1 form ul li .checkCol1 .container:hover input ~ .checkmark {
-              background-color: #ccc; }
+              background-color: #ffff; }
             body .row .col1 form ul li .checkCol1 .container input:checked ~ .checkmark {
               background-color: #9DD962; }
             body .row .col1 form ul li .checkCol1 .checkmark:after {
@@ -198,7 +202,22 @@ body {
           border-radius: 20px;
           box-sizing: border-box;
           font-size: 16px;
-          background-color: #eaeaea; }
+          background-color: #fff; }
+        body .row .col1 form ul input:active {
+          border: 0px;
+          outline: 0px; }
+        body .row .col1 form ul input::placeholder {
+          color: gray; }
+        body .row .col1 form ul input[type=password] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          border: none;
+          display: inline-block;
+          border-radius: 20px;
+          box-sizing: border-box;
+          font-size: 16px;
+          background-color: #fff; }
         body .row .col1 form ul input:active {
           border: 0px;
           outline: 0px; }
@@ -209,7 +228,7 @@ body {
           width: 100%;
           padding: 12px 20px;
           border-radius: 20px;
-          background-color: #0F723B;
+          background-color: #008504;
           color: #fff;
           font-size: 16px; }
         body .row .col1 form ul button:active {
@@ -227,7 +246,8 @@ footer {
   footer .footer1 {
     justify-content: center;
     align-items: center;
-    display: flex; }
+    display: flex;
+    font-size: 20px; }
     footer .footer1 a {
       color: #fff;
       text-decoration: none; }
@@ -236,7 +256,8 @@ footer {
     align-items: center;
     display: flex;
     background-color: #203f2d;
-    color: #fff; }
+    color: #fff;
+    font-size: 20px; }
   footer .footer1:after {
     display: table;
     clear: both;
